@@ -12,7 +12,7 @@ phases:
       - echo "Storing Build Artifact to the Location"
       - tar -czf deploy.tar.gz *
 artifacts:
- files: 
+  files: 
     - deploy.tar.gz
     - uat-api_setup.sh
     - appspec.yml 
